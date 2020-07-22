@@ -1,0 +1,59 @@
+
+/*=====================
+		CIRCLE PROGRESS BAR
+	======================*/
+
+	.progressbar_ {
+		display: inline-block;
+		width: 100px;
+		margin: 25px;
+	}
+	.circle_ {
+		width: 180px;
+		height: 180px;
+		margin: 0 auto;
+		margin-top: 10px;
+		display: inline-block;
+		position: relative;
+		text-align: center;
+	}
+	.circle_:after {
+	    width: 120px;
+		height: 120px;
+		content: "";
+		border: px solid #fd304c;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	
+	.circle_ canvas {
+		vertical-align: middle;
+		border: px solid #fd304c;
+		border-radius: 50%;
+	}
+	
+	.circle_ div {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -20px 0 0 -86px;
+		width: 100%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 31px;
+		
+	}
+	.circle_ strong i {
+		font-style: normal;
+		font-size: 0.6em;
+		font-weight: normal;
+	}
+	.circle_ span {
+		display: block;
+		color: white;
+		margin-top: 12px;
+	}
+	
